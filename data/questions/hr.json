@@ -1,0 +1,474 @@
+[
+  {
+    "id": "hr_intern_001",
+    "profession": "hr",
+    "level": "intern",
+    "category": "motivation",
+    "question": {
+      "ru": "Расскажите о сложном конфликте в команде.",
+      "en": "Explain: Расскажите о сложном конфликте в команде.",
+      "uk": "Поясніть: Расскажите о сложном конфликте в команде."
+    },
+    "keywords": [
+      "conflict",
+      "team",
+      "communication",
+      "resolution"
+    ],
+    "expected_points": [
+      "describe context",
+      "explain actions",
+      "show outcome"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "hr_intern_002",
+    "profession": "hr",
+    "level": "intern",
+    "category": "teamwork",
+    "question": {
+      "ru": "Почему вам интересна эта роль?",
+      "en": "Explain: Почему вам интересна эта роль?",
+      "uk": "Поясніть: Почему вам интересна эта роль?"
+    },
+    "keywords": [
+      "motivation",
+      "role",
+      "company",
+      "growth"
+    ],
+    "expected_points": [
+      "connect skills",
+      "company interest",
+      "growth path"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "hr_intern_003",
+    "profession": "hr",
+    "level": "intern",
+    "category": "conflict",
+    "question": {
+      "ru": "Как вы реагируете на критику?",
+      "en": "Explain: Как вы реагируете на критику?",
+      "uk": "Поясніть: Как вы реагируете на критику?"
+    },
+    "keywords": [
+      "feedback",
+      "criticism",
+      "improve"
+    ],
+    "expected_points": [
+      "listen carefully",
+      "clarify examples",
+      "turn feedback into action"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "hr_intern_004",
+    "profession": "hr",
+    "level": "intern",
+    "category": "leadership",
+    "question": {
+      "ru": "Расскажите о сильной стороне.",
+      "en": "Explain: Расскажите о сильной стороне.",
+      "uk": "Поясніть: Расскажите о сильной стороне."
+    },
+    "keywords": [
+      "strength",
+      "example",
+      "impact"
+    ],
+    "expected_points": [
+      "name strength",
+      "give example",
+      "show impact"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "hr_intern_005",
+    "profession": "hr",
+    "level": "intern",
+    "category": "communication",
+    "question": {
+      "ru": "Как вы планируете обучение?",
+      "en": "Explain: Как вы планируете обучение?",
+      "uk": "Поясніть: Как вы планируете обучение?"
+    },
+    "keywords": [
+      "learning",
+      "plan",
+      "priorities",
+      "practice"
+    ],
+    "expected_points": [
+      "set priorities",
+      "practice regularly",
+      "measure progress"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "hr_junior_006",
+    "profession": "hr",
+    "level": "junior",
+    "category": "motivation",
+    "question": {
+      "ru": "Расскажите о сложном конфликте в команде.",
+      "en": "Explain: Расскажите о сложном конфликте в команде.",
+      "uk": "Поясніть: Расскажите о сложном конфликте в команде."
+    },
+    "keywords": [
+      "conflict",
+      "team",
+      "communication",
+      "resolution"
+    ],
+    "expected_points": [
+      "describe context",
+      "explain actions",
+      "show outcome"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "hr_junior_007",
+    "profession": "hr",
+    "level": "junior",
+    "category": "teamwork",
+    "question": {
+      "ru": "Почему вам интересна эта роль?",
+      "en": "Explain: Почему вам интересна эта роль?",
+      "uk": "Поясніть: Почему вам интересна эта роль?"
+    },
+    "keywords": [
+      "motivation",
+      "role",
+      "company",
+      "growth"
+    ],
+    "expected_points": [
+      "connect skills",
+      "company interest",
+      "growth path"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "hr_junior_008",
+    "profession": "hr",
+    "level": "junior",
+    "category": "conflict",
+    "question": {
+      "ru": "Как вы реагируете на критику?",
+      "en": "Explain: Как вы реагируете на критику?",
+      "uk": "Поясніть: Как вы реагируете на критику?"
+    },
+    "keywords": [
+      "feedback",
+      "criticism",
+      "improve"
+    ],
+    "expected_points": [
+      "listen carefully",
+      "clarify examples",
+      "turn feedback into action"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "hr_junior_009",
+    "profession": "hr",
+    "level": "junior",
+    "category": "leadership",
+    "question": {
+      "ru": "Расскажите о сильной стороне.",
+      "en": "Explain: Расскажите о сильной стороне.",
+      "uk": "Поясніть: Расскажите о сильной стороне."
+    },
+    "keywords": [
+      "strength",
+      "example",
+      "impact"
+    ],
+    "expected_points": [
+      "name strength",
+      "give example",
+      "show impact"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "hr_junior_010",
+    "profession": "hr",
+    "level": "junior",
+    "category": "communication",
+    "question": {
+      "ru": "Как вы планируете обучение?",
+      "en": "Explain: Как вы планируете обучение?",
+      "uk": "Поясніть: Как вы планируете обучение?"
+    },
+    "keywords": [
+      "learning",
+      "plan",
+      "priorities",
+      "practice"
+    ],
+    "expected_points": [
+      "set priorities",
+      "practice regularly",
+      "measure progress"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "hr_middle_011",
+    "profession": "hr",
+    "level": "middle",
+    "category": "motivation",
+    "question": {
+      "ru": "Расскажите о сложном конфликте в команде.",
+      "en": "Explain: Расскажите о сложном конфликте в команде.",
+      "uk": "Поясніть: Расскажите о сложном конфликте в команде."
+    },
+    "keywords": [
+      "conflict",
+      "team",
+      "communication",
+      "resolution"
+    ],
+    "expected_points": [
+      "describe context",
+      "explain actions",
+      "show outcome"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "hr_middle_012",
+    "profession": "hr",
+    "level": "middle",
+    "category": "teamwork",
+    "question": {
+      "ru": "Почему вам интересна эта роль?",
+      "en": "Explain: Почему вам интересна эта роль?",
+      "uk": "Поясніть: Почему вам интересна эта роль?"
+    },
+    "keywords": [
+      "motivation",
+      "role",
+      "company",
+      "growth"
+    ],
+    "expected_points": [
+      "connect skills",
+      "company interest",
+      "growth path"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "hr_middle_013",
+    "profession": "hr",
+    "level": "middle",
+    "category": "conflict",
+    "question": {
+      "ru": "Как вы реагируете на критику?",
+      "en": "Explain: Как вы реагируете на критику?",
+      "uk": "Поясніть: Как вы реагируете на критику?"
+    },
+    "keywords": [
+      "feedback",
+      "criticism",
+      "improve"
+    ],
+    "expected_points": [
+      "listen carefully",
+      "clarify examples",
+      "turn feedback into action"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "hr_middle_014",
+    "profession": "hr",
+    "level": "middle",
+    "category": "leadership",
+    "question": {
+      "ru": "Расскажите о сильной стороне.",
+      "en": "Explain: Расскажите о сильной стороне.",
+      "uk": "Поясніть: Расскажите о сильной стороне."
+    },
+    "keywords": [
+      "strength",
+      "example",
+      "impact"
+    ],
+    "expected_points": [
+      "name strength",
+      "give example",
+      "show impact"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "hr_middle_015",
+    "profession": "hr",
+    "level": "middle",
+    "category": "communication",
+    "question": {
+      "ru": "Как вы планируете обучение?",
+      "en": "Explain: Как вы планируете обучение?",
+      "uk": "Поясніть: Как вы планируете обучение?"
+    },
+    "keywords": [
+      "learning",
+      "plan",
+      "priorities",
+      "practice"
+    ],
+    "expected_points": [
+      "set priorities",
+      "practice regularly",
+      "measure progress"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "hr_senior_016",
+    "profession": "hr",
+    "level": "senior",
+    "category": "motivation",
+    "question": {
+      "ru": "Расскажите о сложном конфликте в команде.",
+      "en": "Explain: Расскажите о сложном конфликте в команде.",
+      "uk": "Поясніть: Расскажите о сложном конфликте в команде."
+    },
+    "keywords": [
+      "conflict",
+      "team",
+      "communication",
+      "resolution"
+    ],
+    "expected_points": [
+      "describe context",
+      "explain actions",
+      "show outcome"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "hr_senior_017",
+    "profession": "hr",
+    "level": "senior",
+    "category": "teamwork",
+    "question": {
+      "ru": "Почему вам интересна эта роль?",
+      "en": "Explain: Почему вам интересна эта роль?",
+      "uk": "Поясніть: Почему вам интересна эта роль?"
+    },
+    "keywords": [
+      "motivation",
+      "role",
+      "company",
+      "growth"
+    ],
+    "expected_points": [
+      "connect skills",
+      "company interest",
+      "growth path"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "hr_senior_018",
+    "profession": "hr",
+    "level": "senior",
+    "category": "conflict",
+    "question": {
+      "ru": "Как вы реагируете на критику?",
+      "en": "Explain: Как вы реагируете на критику?",
+      "uk": "Поясніть: Как вы реагируете на критику?"
+    },
+    "keywords": [
+      "feedback",
+      "criticism",
+      "improve"
+    ],
+    "expected_points": [
+      "listen carefully",
+      "clarify examples",
+      "turn feedback into action"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "hr_senior_019",
+    "profession": "hr",
+    "level": "senior",
+    "category": "leadership",
+    "question": {
+      "ru": "Расскажите о сильной стороне.",
+      "en": "Explain: Расскажите о сильной стороне.",
+      "uk": "Поясніть: Расскажите о сильной стороне."
+    },
+    "keywords": [
+      "strength",
+      "example",
+      "impact"
+    ],
+    "expected_points": [
+      "name strength",
+      "give example",
+      "show impact"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "hr_senior_020",
+    "profession": "hr",
+    "level": "senior",
+    "category": "communication",
+    "question": {
+      "ru": "Как вы планируете обучение?",
+      "en": "Explain: Как вы планируете обучение?",
+      "uk": "Поясніть: Как вы планируете обучение?"
+    },
+    "keywords": [
+      "learning",
+      "plan",
+      "priorities",
+      "practice"
+    ],
+    "expected_points": [
+      "set priorities",
+      "practice regularly",
+      "measure progress"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

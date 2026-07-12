@@ -1,0 +1,486 @@
+[
+  {
+    "id": "frontend_intern_001",
+    "profession": "frontend",
+    "level": "intern",
+    "category": "html",
+    "question": {
+      "ru": "Что такое semantic HTML?",
+      "en": "Explain: Что такое semantic HTML?",
+      "uk": "Поясніть: Что такое semantic HTML?"
+    },
+    "keywords": [
+      "semantic",
+      "html",
+      "accessibility",
+      "structure"
+    ],
+    "expected_points": [
+      "meaningful tags",
+      "helps accessibility",
+      "improves SEO"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_intern_002",
+    "profession": "frontend",
+    "level": "intern",
+    "category": "css",
+    "question": {
+      "ru": "Как работает CSS specificity?",
+      "en": "Explain: Как работает CSS specificity?",
+      "uk": "Поясніть: Как работает CSS specificity?"
+    },
+    "keywords": [
+      "css",
+      "specificity",
+      "cascade",
+      "selector"
+    ],
+    "expected_points": [
+      "selectors have weights",
+      "cascade resolves conflicts",
+      "inline is strongest"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_intern_003",
+    "profession": "frontend",
+    "level": "intern",
+    "category": "accessibility",
+    "question": {
+      "ru": "Как улучшить доступность формы?",
+      "en": "Explain: Как улучшить доступность формы?",
+      "uk": "Поясніть: Как улучшить доступность формы?"
+    },
+    "keywords": [
+      "accessibility",
+      "label",
+      "focus",
+      "aria"
+    ],
+    "expected_points": [
+      "use labels",
+      "visible focus",
+      "ARIA only when needed"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_intern_004",
+    "profession": "frontend",
+    "level": "intern",
+    "category": "performance",
+    "question": {
+      "ru": "Что такое critical rendering path?",
+      "en": "Explain: Что такое critical rendering path?",
+      "uk": "Поясніть: Что такое critical rendering path?"
+    },
+    "keywords": [
+      "rendering",
+      "css",
+      "js",
+      "layout",
+      "paint"
+    ],
+    "expected_points": [
+      "browser parses HTML/CSS",
+      "layout and paint",
+      "blocking resources matter"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_intern_005",
+    "profession": "frontend",
+    "level": "intern",
+    "category": "browser_apis",
+    "question": {
+      "ru": "Как оптимизировать изображения?",
+      "en": "Explain: Как оптимизировать изображения?",
+      "uk": "Поясніть: Как оптимизировать изображения?"
+    },
+    "keywords": [
+      "image",
+      "compression",
+      "responsive",
+      "lazy"
+    ],
+    "expected_points": [
+      "compress images",
+      "responsive sizes",
+      "lazy loading"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_junior_006",
+    "profession": "frontend",
+    "level": "junior",
+    "category": "html",
+    "question": {
+      "ru": "Что такое semantic HTML?",
+      "en": "Explain: Что такое semantic HTML?",
+      "uk": "Поясніть: Что такое semantic HTML?"
+    },
+    "keywords": [
+      "semantic",
+      "html",
+      "accessibility",
+      "structure"
+    ],
+    "expected_points": [
+      "meaningful tags",
+      "helps accessibility",
+      "improves SEO"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_junior_007",
+    "profession": "frontend",
+    "level": "junior",
+    "category": "css",
+    "question": {
+      "ru": "Как работает CSS specificity?",
+      "en": "Explain: Как работает CSS specificity?",
+      "uk": "Поясніть: Как работает CSS specificity?"
+    },
+    "keywords": [
+      "css",
+      "specificity",
+      "cascade",
+      "selector"
+    ],
+    "expected_points": [
+      "selectors have weights",
+      "cascade resolves conflicts",
+      "inline is strongest"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_junior_008",
+    "profession": "frontend",
+    "level": "junior",
+    "category": "accessibility",
+    "question": {
+      "ru": "Как улучшить доступность формы?",
+      "en": "Explain: Как улучшить доступность формы?",
+      "uk": "Поясніть: Как улучшить доступность формы?"
+    },
+    "keywords": [
+      "accessibility",
+      "label",
+      "focus",
+      "aria"
+    ],
+    "expected_points": [
+      "use labels",
+      "visible focus",
+      "ARIA only when needed"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_junior_009",
+    "profession": "frontend",
+    "level": "junior",
+    "category": "performance",
+    "question": {
+      "ru": "Что такое critical rendering path?",
+      "en": "Explain: Что такое critical rendering path?",
+      "uk": "Поясніть: Что такое critical rendering path?"
+    },
+    "keywords": [
+      "rendering",
+      "css",
+      "js",
+      "layout",
+      "paint"
+    ],
+    "expected_points": [
+      "browser parses HTML/CSS",
+      "layout and paint",
+      "blocking resources matter"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_junior_010",
+    "profession": "frontend",
+    "level": "junior",
+    "category": "browser_apis",
+    "question": {
+      "ru": "Как оптимизировать изображения?",
+      "en": "Explain: Как оптимизировать изображения?",
+      "uk": "Поясніть: Как оптимизировать изображения?"
+    },
+    "keywords": [
+      "image",
+      "compression",
+      "responsive",
+      "lazy"
+    ],
+    "expected_points": [
+      "compress images",
+      "responsive sizes",
+      "lazy loading"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_middle_011",
+    "profession": "frontend",
+    "level": "middle",
+    "category": "html",
+    "question": {
+      "ru": "Что такое semantic HTML?",
+      "en": "Explain: Что такое semantic HTML?",
+      "uk": "Поясніть: Что такое semantic HTML?"
+    },
+    "keywords": [
+      "semantic",
+      "html",
+      "accessibility",
+      "structure"
+    ],
+    "expected_points": [
+      "meaningful tags",
+      "helps accessibility",
+      "improves SEO"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_middle_012",
+    "profession": "frontend",
+    "level": "middle",
+    "category": "css",
+    "question": {
+      "ru": "Как работает CSS specificity?",
+      "en": "Explain: Как работает CSS specificity?",
+      "uk": "Поясніть: Как работает CSS specificity?"
+    },
+    "keywords": [
+      "css",
+      "specificity",
+      "cascade",
+      "selector"
+    ],
+    "expected_points": [
+      "selectors have weights",
+      "cascade resolves conflicts",
+      "inline is strongest"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_middle_013",
+    "profession": "frontend",
+    "level": "middle",
+    "category": "accessibility",
+    "question": {
+      "ru": "Как улучшить доступность формы?",
+      "en": "Explain: Как улучшить доступность формы?",
+      "uk": "Поясніть: Как улучшить доступность формы?"
+    },
+    "keywords": [
+      "accessibility",
+      "label",
+      "focus",
+      "aria"
+    ],
+    "expected_points": [
+      "use labels",
+      "visible focus",
+      "ARIA only when needed"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_middle_014",
+    "profession": "frontend",
+    "level": "middle",
+    "category": "performance",
+    "question": {
+      "ru": "Что такое critical rendering path?",
+      "en": "Explain: Что такое critical rendering path?",
+      "uk": "Поясніть: Что такое critical rendering path?"
+    },
+    "keywords": [
+      "rendering",
+      "css",
+      "js",
+      "layout",
+      "paint"
+    ],
+    "expected_points": [
+      "browser parses HTML/CSS",
+      "layout and paint",
+      "blocking resources matter"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_middle_015",
+    "profession": "frontend",
+    "level": "middle",
+    "category": "browser_apis",
+    "question": {
+      "ru": "Как оптимизировать изображения?",
+      "en": "Explain: Как оптимизировать изображения?",
+      "uk": "Поясніть: Как оптимизировать изображения?"
+    },
+    "keywords": [
+      "image",
+      "compression",
+      "responsive",
+      "lazy"
+    ],
+    "expected_points": [
+      "compress images",
+      "responsive sizes",
+      "lazy loading"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_senior_016",
+    "profession": "frontend",
+    "level": "senior",
+    "category": "html",
+    "question": {
+      "ru": "Что такое semantic HTML?",
+      "en": "Explain: Что такое semantic HTML?",
+      "uk": "Поясніть: Что такое semantic HTML?"
+    },
+    "keywords": [
+      "semantic",
+      "html",
+      "accessibility",
+      "structure"
+    ],
+    "expected_points": [
+      "meaningful tags",
+      "helps accessibility",
+      "improves SEO"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_senior_017",
+    "profession": "frontend",
+    "level": "senior",
+    "category": "css",
+    "question": {
+      "ru": "Как работает CSS specificity?",
+      "en": "Explain: Как работает CSS specificity?",
+      "uk": "Поясніть: Как работает CSS specificity?"
+    },
+    "keywords": [
+      "css",
+      "specificity",
+      "cascade",
+      "selector"
+    ],
+    "expected_points": [
+      "selectors have weights",
+      "cascade resolves conflicts",
+      "inline is strongest"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_senior_018",
+    "profession": "frontend",
+    "level": "senior",
+    "category": "accessibility",
+    "question": {
+      "ru": "Как улучшить доступность формы?",
+      "en": "Explain: Как улучшить доступность формы?",
+      "uk": "Поясніть: Как улучшить доступность формы?"
+    },
+    "keywords": [
+      "accessibility",
+      "label",
+      "focus",
+      "aria"
+    ],
+    "expected_points": [
+      "use labels",
+      "visible focus",
+      "ARIA only when needed"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_senior_019",
+    "profession": "frontend",
+    "level": "senior",
+    "category": "performance",
+    "question": {
+      "ru": "Что такое critical rendering path?",
+      "en": "Explain: Что такое critical rendering path?",
+      "uk": "Поясніть: Что такое critical rendering path?"
+    },
+    "keywords": [
+      "rendering",
+      "css",
+      "js",
+      "layout",
+      "paint"
+    ],
+    "expected_points": [
+      "browser parses HTML/CSS",
+      "layout and paint",
+      "blocking resources matter"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "frontend_senior_020",
+    "profession": "frontend",
+    "level": "senior",
+    "category": "browser_apis",
+    "question": {
+      "ru": "Как оптимизировать изображения?",
+      "en": "Explain: Как оптимизировать изображения?",
+      "uk": "Поясніть: Как оптимизировать изображения?"
+    },
+    "keywords": [
+      "image",
+      "compression",
+      "responsive",
+      "lazy"
+    ],
+    "expected_points": [
+      "compress images",
+      "responsive sizes",
+      "lazy loading"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

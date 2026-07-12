@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+interviewforge.db
+test_interviewforge.db
+*.sqlite3
+htmlcov/
+dist/
+build/
+

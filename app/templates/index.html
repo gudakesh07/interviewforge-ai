@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">Practice smarter. Interview better.</p>
+    <h1>Тренируй технические и HR-собеседования без хаоса</h1>
+    <p>Выберите профессию, уровень и язык. InterviewForge задаст вопросы по одному, оценит ответы, найдёт слабые места и соберёт план подготовки.</p>
+    <div class="actions">
+      <a class="button" href="/register">Начать подготовку</a>
+      <a class="button secondary" href="/interviews/new">Быстрая тренировка</a>
+    </div>
+  </div>
+  <aside class="demo-card">
+    <span class="score">82</span>
+    <p>Итоговый score</p>
+    <small>Сильные темы: Python Core, SQL. Повторить: async, testing.</small>
+  </aside>
+</section>
+<section class="grid">
+  {% for key, techs in professions.items() %}
+    <article class="card">
+      <h3>{{ key.replace("_", " ").title() }}</h3>
+      <p>{{ ", ".join(techs[:5]) }}</p>
+    </article>
+  {% endfor %}
+</section>
+{% endblock %}
+

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-label="InterviewForge AI dashboard preview">
+  <rect width="1200" height="680" fill="#0d1320"/>
+  <rect x="70" y="60" width="1060" height="560" rx="16" fill="#151e2e" stroke="#29384f"/>
+  <text x="110" y="125" fill="#edf3ff" font-family="Segoe UI, Arial" font-size="42" font-weight="700">InterviewForge AI</text>
+  <text x="110" y="165" fill="#9cacbf" font-family="Segoe UI, Arial" font-size="20">Practice smarter. Interview better.</text>
+  <rect x="110" y="220" width="220" height="130" rx="10" fill="#1d2a3f"/>
+  <rect x="360" y="220" width="220" height="130" rx="10" fill="#1d2a3f"/>
+  <rect x="610" y="220" width="220" height="130" rx="10" fill="#1d2a3f"/>
+  <text x="140" y="292" fill="#56a6ff" font-family="Segoe UI, Arial" font-size="48" font-weight="800">82</text>
+  <text x="390" y="292" fill="#8b6cff" font-family="Segoe UI, Arial" font-size="48" font-weight="800">200</text>
+  <text x="640" y="292" fill="#56a6ff" font-family="Segoe UI, Arial" font-size="48" font-weight="800">5</text>
+  <text x="140" y="326" fill="#9cacbf" font-family="Segoe UI, Arial" font-size="18">average score</text>
+  <text x="390" y="326" fill="#9cacbf" font-family="Segoe UI, Arial" font-size="18">local questions</text>
+  <text x="640" y="326" fill="#9cacbf" font-family="Segoe UI, Arial" font-size="18">AI providers</text>
+  <rect x="110" y="405" width="720" height="40" rx="8" fill="#0f1726"/>
+  <rect x="110" y="405" width="535" height="40" rx="8" fill="#56a6ff"/>
+  <rect x="110" y="480" width="970" height="1" fill="#29384f"/>
+  <text x="110" y="535" fill="#edf3ff" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Python Developer / Junior / Quick Practice</text>
+  <text x="110" y="575" fill="#9cacbf" font-family="Segoe UI, Arial" font-size="20">Local scoring, reports, PDF export, and offline CLI practice.</text>
+</svg>

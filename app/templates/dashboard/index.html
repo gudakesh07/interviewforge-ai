@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="header-row">
+  <div>
+    <p class="eyebrow">Dashboard</p>
+    <h1>Привет, {{ user.username }}</h1>
+  </div>
+  <a class="button" href="/interviews/new">Начать интервью</a>
+</section>
+<section class="stats">
+  <div class="stat"><span>{{ stats.interview_count }}</span><p>Интервью</p></div>
+  <div class="stat"><span>{{ stats.average_score }}</span><p>Средний балл</p></div>
+  <div class="stat"><span>{{ stats.best_score }}</span><p>Лучший балл</p></div>
+  <div class="stat"><span>{{ stats.completion_rate }}%</span><p>Завершено</p></div>
+</section>
+<section class="panel">
+  <h2>Последние интервью</h2>
+  <table>
+    <tr><th>Дата</th><th>Профессия</th><th>Уровень</th><th>Статус</th><th>Балл</th><th></th></tr>
+    {% for interview in interviews %}
+      <tr>
+        <td>{{ interview.started_at.date() }}</td>
+        <td>{{ interview.profession }}</td>
+        <td>{{ interview.level }}</td>
+        <td>{{ interview.status }}</td>
+        <td>{{ interview.total_score }}</td>
+        <td><a href="/reports/{{ interview.id }}">Отчёт</a></td>
+      </tr>
+    {% else %}
+      <tr><td colspan="6">Пока нет интервью.</td></tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}
+

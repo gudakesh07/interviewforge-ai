@@ -1,0 +1,486 @@
+[
+  {
+    "id": "javascript_intern_001",
+    "profession": "javascript",
+    "level": "intern",
+    "category": "javascript_core",
+    "question": {
+      "ru": "Что такое event loop?",
+      "en": "Explain: Что такое event loop?",
+      "uk": "Поясніть: Что такое event loop?"
+    },
+    "keywords": [
+      "event",
+      "loop",
+      "microtask",
+      "macrotask",
+      "async"
+    ],
+    "expected_points": [
+      "single-threaded loop",
+      "tasks queues",
+      "promises use microtasks"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_intern_002",
+    "profession": "javascript",
+    "level": "intern",
+    "category": "async_js",
+    "question": {
+      "ru": "Чем let отличается от var?",
+      "en": "Explain: Чем let отличается от var?",
+      "uk": "Поясніть: Чем let отличается от var?"
+    },
+    "keywords": [
+      "let",
+      "var",
+      "scope",
+      "hoisting"
+    ],
+    "expected_points": [
+      "block scope",
+      "var function scope",
+      "temporal dead zone"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_intern_003",
+    "profession": "javascript",
+    "level": "intern",
+    "category": "dom",
+    "question": {
+      "ru": "Как работает Promise?",
+      "en": "Explain: Как работает Promise?",
+      "uk": "Поясніть: Как работает Promise?"
+    },
+    "keywords": [
+      "promise",
+      "async",
+      "then",
+      "catch"
+    ],
+    "expected_points": [
+      "represents future value",
+      "states pending fulfilled rejected",
+      "supports chaining"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_intern_004",
+    "profession": "javascript",
+    "level": "intern",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что такое closure?",
+      "en": "Explain: Что такое closure?",
+      "uk": "Поясніть: Что такое closure?"
+    },
+    "keywords": [
+      "closure",
+      "lexical",
+      "scope",
+      "function"
+    ],
+    "expected_points": [
+      "function captures scope",
+      "keeps variables alive",
+      "useful for encapsulation"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_intern_005",
+    "profession": "javascript",
+    "level": "intern",
+    "category": "testing",
+    "question": {
+      "ru": "Как обработать ошибку fetch?",
+      "en": "Explain: Как обработать ошибку fetch?",
+      "uk": "Поясніть: Как обработать ошибку fetch?"
+    },
+    "keywords": [
+      "fetch",
+      "error",
+      "status",
+      "catch"
+    ],
+    "expected_points": [
+      "check response status",
+      "catch network errors",
+      "handle JSON parsing"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_junior_006",
+    "profession": "javascript",
+    "level": "junior",
+    "category": "javascript_core",
+    "question": {
+      "ru": "Что такое event loop?",
+      "en": "Explain: Что такое event loop?",
+      "uk": "Поясніть: Что такое event loop?"
+    },
+    "keywords": [
+      "event",
+      "loop",
+      "microtask",
+      "macrotask",
+      "async"
+    ],
+    "expected_points": [
+      "single-threaded loop",
+      "tasks queues",
+      "promises use microtasks"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_junior_007",
+    "profession": "javascript",
+    "level": "junior",
+    "category": "async_js",
+    "question": {
+      "ru": "Чем let отличается от var?",
+      "en": "Explain: Чем let отличается от var?",
+      "uk": "Поясніть: Чем let отличается от var?"
+    },
+    "keywords": [
+      "let",
+      "var",
+      "scope",
+      "hoisting"
+    ],
+    "expected_points": [
+      "block scope",
+      "var function scope",
+      "temporal dead zone"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_junior_008",
+    "profession": "javascript",
+    "level": "junior",
+    "category": "dom",
+    "question": {
+      "ru": "Как работает Promise?",
+      "en": "Explain: Как работает Promise?",
+      "uk": "Поясніть: Как работает Promise?"
+    },
+    "keywords": [
+      "promise",
+      "async",
+      "then",
+      "catch"
+    ],
+    "expected_points": [
+      "represents future value",
+      "states pending fulfilled rejected",
+      "supports chaining"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_junior_009",
+    "profession": "javascript",
+    "level": "junior",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что такое closure?",
+      "en": "Explain: Что такое closure?",
+      "uk": "Поясніть: Что такое closure?"
+    },
+    "keywords": [
+      "closure",
+      "lexical",
+      "scope",
+      "function"
+    ],
+    "expected_points": [
+      "function captures scope",
+      "keeps variables alive",
+      "useful for encapsulation"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_junior_010",
+    "profession": "javascript",
+    "level": "junior",
+    "category": "testing",
+    "question": {
+      "ru": "Как обработать ошибку fetch?",
+      "en": "Explain: Как обработать ошибку fetch?",
+      "uk": "Поясніть: Как обработать ошибку fetch?"
+    },
+    "keywords": [
+      "fetch",
+      "error",
+      "status",
+      "catch"
+    ],
+    "expected_points": [
+      "check response status",
+      "catch network errors",
+      "handle JSON parsing"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_middle_011",
+    "profession": "javascript",
+    "level": "middle",
+    "category": "javascript_core",
+    "question": {
+      "ru": "Что такое event loop?",
+      "en": "Explain: Что такое event loop?",
+      "uk": "Поясніть: Что такое event loop?"
+    },
+    "keywords": [
+      "event",
+      "loop",
+      "microtask",
+      "macrotask",
+      "async"
+    ],
+    "expected_points": [
+      "single-threaded loop",
+      "tasks queues",
+      "promises use microtasks"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_middle_012",
+    "profession": "javascript",
+    "level": "middle",
+    "category": "async_js",
+    "question": {
+      "ru": "Чем let отличается от var?",
+      "en": "Explain: Чем let отличается от var?",
+      "uk": "Поясніть: Чем let отличается от var?"
+    },
+    "keywords": [
+      "let",
+      "var",
+      "scope",
+      "hoisting"
+    ],
+    "expected_points": [
+      "block scope",
+      "var function scope",
+      "temporal dead zone"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_middle_013",
+    "profession": "javascript",
+    "level": "middle",
+    "category": "dom",
+    "question": {
+      "ru": "Как работает Promise?",
+      "en": "Explain: Как работает Promise?",
+      "uk": "Поясніть: Как работает Promise?"
+    },
+    "keywords": [
+      "promise",
+      "async",
+      "then",
+      "catch"
+    ],
+    "expected_points": [
+      "represents future value",
+      "states pending fulfilled rejected",
+      "supports chaining"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_middle_014",
+    "profession": "javascript",
+    "level": "middle",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что такое closure?",
+      "en": "Explain: Что такое closure?",
+      "uk": "Поясніть: Что такое closure?"
+    },
+    "keywords": [
+      "closure",
+      "lexical",
+      "scope",
+      "function"
+    ],
+    "expected_points": [
+      "function captures scope",
+      "keeps variables alive",
+      "useful for encapsulation"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_middle_015",
+    "profession": "javascript",
+    "level": "middle",
+    "category": "testing",
+    "question": {
+      "ru": "Как обработать ошибку fetch?",
+      "en": "Explain: Как обработать ошибку fetch?",
+      "uk": "Поясніть: Как обработать ошибку fetch?"
+    },
+    "keywords": [
+      "fetch",
+      "error",
+      "status",
+      "catch"
+    ],
+    "expected_points": [
+      "check response status",
+      "catch network errors",
+      "handle JSON parsing"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_senior_016",
+    "profession": "javascript",
+    "level": "senior",
+    "category": "javascript_core",
+    "question": {
+      "ru": "Что такое event loop?",
+      "en": "Explain: Что такое event loop?",
+      "uk": "Поясніть: Что такое event loop?"
+    },
+    "keywords": [
+      "event",
+      "loop",
+      "microtask",
+      "macrotask",
+      "async"
+    ],
+    "expected_points": [
+      "single-threaded loop",
+      "tasks queues",
+      "promises use microtasks"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_senior_017",
+    "profession": "javascript",
+    "level": "senior",
+    "category": "async_js",
+    "question": {
+      "ru": "Чем let отличается от var?",
+      "en": "Explain: Чем let отличается от var?",
+      "uk": "Поясніть: Чем let отличается от var?"
+    },
+    "keywords": [
+      "let",
+      "var",
+      "scope",
+      "hoisting"
+    ],
+    "expected_points": [
+      "block scope",
+      "var function scope",
+      "temporal dead zone"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_senior_018",
+    "profession": "javascript",
+    "level": "senior",
+    "category": "dom",
+    "question": {
+      "ru": "Как работает Promise?",
+      "en": "Explain: Как работает Promise?",
+      "uk": "Поясніть: Как работает Promise?"
+    },
+    "keywords": [
+      "promise",
+      "async",
+      "then",
+      "catch"
+    ],
+    "expected_points": [
+      "represents future value",
+      "states pending fulfilled rejected",
+      "supports chaining"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_senior_019",
+    "profession": "javascript",
+    "level": "senior",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что такое closure?",
+      "en": "Explain: Что такое closure?",
+      "uk": "Поясніть: Что такое closure?"
+    },
+    "keywords": [
+      "closure",
+      "lexical",
+      "scope",
+      "function"
+    ],
+    "expected_points": [
+      "function captures scope",
+      "keeps variables alive",
+      "useful for encapsulation"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "javascript_senior_020",
+    "profession": "javascript",
+    "level": "senior",
+    "category": "testing",
+    "question": {
+      "ru": "Как обработать ошибку fetch?",
+      "en": "Explain: Как обработать ошибку fetch?",
+      "uk": "Поясніть: Как обработать ошибку fetch?"
+    },
+    "keywords": [
+      "fetch",
+      "error",
+      "status",
+      "catch"
+    ],
+    "expected_points": [
+      "check response status",
+      "catch network errors",
+      "handle JSON parsing"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

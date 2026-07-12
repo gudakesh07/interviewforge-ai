@@ -1,0 +1,490 @@
+[
+  {
+    "id": "qa_intern_001",
+    "profession": "qa",
+    "level": "intern",
+    "category": "testing_theory",
+    "question": {
+      "ru": "Чем smoke test отличается от regression test?",
+      "en": "Explain: Чем smoke test отличается от regression test?",
+      "uk": "Поясніть: Чем smoke test отличается от regression test?"
+    },
+    "keywords": [
+      "smoke",
+      "regression",
+      "scope"
+    ],
+    "expected_points": [
+      "smoke checks basics",
+      "regression checks old features",
+      "different scope"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "qa_intern_002",
+    "profession": "qa",
+    "level": "intern",
+    "category": "test_cases",
+    "question": {
+      "ru": "Как написать хороший баг-репорт?",
+      "en": "Explain: Как написать хороший баг-репорт?",
+      "uk": "Поясніть: Как написать хороший баг-репорт?"
+    },
+    "keywords": [
+      "bug",
+      "report",
+      "steps",
+      "expected",
+      "actual"
+    ],
+    "expected_points": [
+      "clear steps",
+      "expected vs actual",
+      "environment and evidence"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "qa_intern_003",
+    "profession": "qa",
+    "level": "intern",
+    "category": "automation",
+    "question": {
+      "ru": "Что тестировать в API?",
+      "en": "Explain: Что тестировать в API?",
+      "uk": "Поясніть: Что тестировать в API?"
+    },
+    "keywords": [
+      "api",
+      "status",
+      "schema",
+      "auth",
+      "edge"
+    ],
+    "expected_points": [
+      "status codes",
+      "response schema",
+      "auth and edge cases"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "qa_intern_004",
+    "profession": "qa",
+    "level": "intern",
+    "category": "api_testing",
+    "question": {
+      "ru": "Что такое test pyramid?",
+      "en": "Explain: Что такое test pyramid?",
+      "uk": "Поясніть: Что такое test pyramid?"
+    },
+    "keywords": [
+      "test",
+      "pyramid",
+      "unit",
+      "integration",
+      "e2e"
+    ],
+    "expected_points": [
+      "many unit tests",
+      "fewer integration tests",
+      "few E2E tests"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "qa_intern_005",
+    "profession": "qa",
+    "level": "intern",
+    "category": "bugs",
+    "question": {
+      "ru": "Как выбирать cases for automation?",
+      "en": "Explain: Как выбирать cases for automation?",
+      "uk": "Поясніть: Как выбирать cases for automation?"
+    },
+    "keywords": [
+      "automation",
+      "stable",
+      "repeatable",
+      "value"
+    ],
+    "expected_points": [
+      "repeatable cases",
+      "stable flows",
+      "high business value"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "qa_junior_006",
+    "profession": "qa",
+    "level": "junior",
+    "category": "testing_theory",
+    "question": {
+      "ru": "Чем smoke test отличается от regression test?",
+      "en": "Explain: Чем smoke test отличается от regression test?",
+      "uk": "Поясніть: Чем smoke test отличается от regression test?"
+    },
+    "keywords": [
+      "smoke",
+      "regression",
+      "scope"
+    ],
+    "expected_points": [
+      "smoke checks basics",
+      "regression checks old features",
+      "different scope"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "qa_junior_007",
+    "profession": "qa",
+    "level": "junior",
+    "category": "test_cases",
+    "question": {
+      "ru": "Как написать хороший баг-репорт?",
+      "en": "Explain: Как написать хороший баг-репорт?",
+      "uk": "Поясніть: Как написать хороший баг-репорт?"
+    },
+    "keywords": [
+      "bug",
+      "report",
+      "steps",
+      "expected",
+      "actual"
+    ],
+    "expected_points": [
+      "clear steps",
+      "expected vs actual",
+      "environment and evidence"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "qa_junior_008",
+    "profession": "qa",
+    "level": "junior",
+    "category": "automation",
+    "question": {
+      "ru": "Что тестировать в API?",
+      "en": "Explain: Что тестировать в API?",
+      "uk": "Поясніть: Что тестировать в API?"
+    },
+    "keywords": [
+      "api",
+      "status",
+      "schema",
+      "auth",
+      "edge"
+    ],
+    "expected_points": [
+      "status codes",
+      "response schema",
+      "auth and edge cases"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "qa_junior_009",
+    "profession": "qa",
+    "level": "junior",
+    "category": "api_testing",
+    "question": {
+      "ru": "Что такое test pyramid?",
+      "en": "Explain: Что такое test pyramid?",
+      "uk": "Поясніть: Что такое test pyramid?"
+    },
+    "keywords": [
+      "test",
+      "pyramid",
+      "unit",
+      "integration",
+      "e2e"
+    ],
+    "expected_points": [
+      "many unit tests",
+      "fewer integration tests",
+      "few E2E tests"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "qa_junior_010",
+    "profession": "qa",
+    "level": "junior",
+    "category": "bugs",
+    "question": {
+      "ru": "Как выбирать cases for automation?",
+      "en": "Explain: Как выбирать cases for automation?",
+      "uk": "Поясніть: Как выбирать cases for automation?"
+    },
+    "keywords": [
+      "automation",
+      "stable",
+      "repeatable",
+      "value"
+    ],
+    "expected_points": [
+      "repeatable cases",
+      "stable flows",
+      "high business value"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "qa_middle_011",
+    "profession": "qa",
+    "level": "middle",
+    "category": "testing_theory",
+    "question": {
+      "ru": "Чем smoke test отличается от regression test?",
+      "en": "Explain: Чем smoke test отличается от regression test?",
+      "uk": "Поясніть: Чем smoke test отличается от regression test?"
+    },
+    "keywords": [
+      "smoke",
+      "regression",
+      "scope"
+    ],
+    "expected_points": [
+      "smoke checks basics",
+      "regression checks old features",
+      "different scope"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "qa_middle_012",
+    "profession": "qa",
+    "level": "middle",
+    "category": "test_cases",
+    "question": {
+      "ru": "Как написать хороший баг-репорт?",
+      "en": "Explain: Как написать хороший баг-репорт?",
+      "uk": "Поясніть: Как написать хороший баг-репорт?"
+    },
+    "keywords": [
+      "bug",
+      "report",
+      "steps",
+      "expected",
+      "actual"
+    ],
+    "expected_points": [
+      "clear steps",
+      "expected vs actual",
+      "environment and evidence"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "qa_middle_013",
+    "profession": "qa",
+    "level": "middle",
+    "category": "automation",
+    "question": {
+      "ru": "Что тестировать в API?",
+      "en": "Explain: Что тестировать в API?",
+      "uk": "Поясніть: Что тестировать в API?"
+    },
+    "keywords": [
+      "api",
+      "status",
+      "schema",
+      "auth",
+      "edge"
+    ],
+    "expected_points": [
+      "status codes",
+      "response schema",
+      "auth and edge cases"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "qa_middle_014",
+    "profession": "qa",
+    "level": "middle",
+    "category": "api_testing",
+    "question": {
+      "ru": "Что такое test pyramid?",
+      "en": "Explain: Что такое test pyramid?",
+      "uk": "Поясніть: Что такое test pyramid?"
+    },
+    "keywords": [
+      "test",
+      "pyramid",
+      "unit",
+      "integration",
+      "e2e"
+    ],
+    "expected_points": [
+      "many unit tests",
+      "fewer integration tests",
+      "few E2E tests"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "qa_middle_015",
+    "profession": "qa",
+    "level": "middle",
+    "category": "bugs",
+    "question": {
+      "ru": "Как выбирать cases for automation?",
+      "en": "Explain: Как выбирать cases for automation?",
+      "uk": "Поясніть: Как выбирать cases for automation?"
+    },
+    "keywords": [
+      "automation",
+      "stable",
+      "repeatable",
+      "value"
+    ],
+    "expected_points": [
+      "repeatable cases",
+      "stable flows",
+      "high business value"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "qa_senior_016",
+    "profession": "qa",
+    "level": "senior",
+    "category": "testing_theory",
+    "question": {
+      "ru": "Чем smoke test отличается от regression test?",
+      "en": "Explain: Чем smoke test отличается от regression test?",
+      "uk": "Поясніть: Чем smoke test отличается от regression test?"
+    },
+    "keywords": [
+      "smoke",
+      "regression",
+      "scope"
+    ],
+    "expected_points": [
+      "smoke checks basics",
+      "regression checks old features",
+      "different scope"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "qa_senior_017",
+    "profession": "qa",
+    "level": "senior",
+    "category": "test_cases",
+    "question": {
+      "ru": "Как написать хороший баг-репорт?",
+      "en": "Explain: Как написать хороший баг-репорт?",
+      "uk": "Поясніть: Как написать хороший баг-репорт?"
+    },
+    "keywords": [
+      "bug",
+      "report",
+      "steps",
+      "expected",
+      "actual"
+    ],
+    "expected_points": [
+      "clear steps",
+      "expected vs actual",
+      "environment and evidence"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "qa_senior_018",
+    "profession": "qa",
+    "level": "senior",
+    "category": "automation",
+    "question": {
+      "ru": "Что тестировать в API?",
+      "en": "Explain: Что тестировать в API?",
+      "uk": "Поясніть: Что тестировать в API?"
+    },
+    "keywords": [
+      "api",
+      "status",
+      "schema",
+      "auth",
+      "edge"
+    ],
+    "expected_points": [
+      "status codes",
+      "response schema",
+      "auth and edge cases"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "qa_senior_019",
+    "profession": "qa",
+    "level": "senior",
+    "category": "api_testing",
+    "question": {
+      "ru": "Что такое test pyramid?",
+      "en": "Explain: Что такое test pyramid?",
+      "uk": "Поясніть: Что такое test pyramid?"
+    },
+    "keywords": [
+      "test",
+      "pyramid",
+      "unit",
+      "integration",
+      "e2e"
+    ],
+    "expected_points": [
+      "many unit tests",
+      "fewer integration tests",
+      "few E2E tests"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "qa_senior_020",
+    "profession": "qa",
+    "level": "senior",
+    "category": "bugs",
+    "question": {
+      "ru": "Как выбирать cases for automation?",
+      "en": "Explain: Как выбирать cases for automation?",
+      "uk": "Поясніть: Как выбирать cases for automation?"
+    },
+    "keywords": [
+      "automation",
+      "stable",
+      "repeatable",
+      "value"
+    ],
+    "expected_points": [
+      "repeatable cases",
+      "stable flows",
+      "high business value"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

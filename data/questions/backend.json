@@ -1,0 +1,482 @@
+[
+  {
+    "id": "backend_intern_001",
+    "profession": "backend",
+    "level": "intern",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что делает API RESTful?",
+      "en": "Explain: Что делает API RESTful?",
+      "uk": "Поясніть: Что делает API RESTful?"
+    },
+    "keywords": [
+      "rest",
+      "resource",
+      "http",
+      "stateless"
+    ],
+    "expected_points": [
+      "resource-oriented URLs",
+      "HTTP methods",
+      "stateless requests"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "backend_intern_002",
+    "profession": "backend",
+    "level": "intern",
+    "category": "databases",
+    "question": {
+      "ru": "Когда нужен кэш?",
+      "en": "Explain: Когда нужен кэш?",
+      "uk": "Поясніть: Когда нужен кэш?"
+    },
+    "keywords": [
+      "cache",
+      "latency",
+      "load",
+      "invalidation"
+    ],
+    "expected_points": [
+      "reduces latency",
+      "lowers database load",
+      "requires invalidation strategy"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "backend_intern_003",
+    "profession": "backend",
+    "level": "intern",
+    "category": "architecture",
+    "question": {
+      "ru": "Что такое идемпотентность?",
+      "en": "Explain: Что такое идемпотентность?",
+      "uk": "Поясніть: Что такое идемпотентность?"
+    },
+    "keywords": [
+      "idempotent",
+      "retry",
+      "put",
+      "delete"
+    ],
+    "expected_points": [
+      "same request same effect",
+      "important for retries",
+      "PUT and DELETE usually idempotent"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "backend_intern_004",
+    "profession": "backend",
+    "level": "intern",
+    "category": "security",
+    "question": {
+      "ru": "Как проектировать пагинацию?",
+      "en": "Explain: Как проектировать пагинацию?",
+      "uk": "Поясніть: Как проектировать пагинацию?"
+    },
+    "keywords": [
+      "pagination",
+      "limit",
+      "offset",
+      "cursor"
+    ],
+    "expected_points": [
+      "limit response size",
+      "offset or cursor",
+      "stable ordering matters"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "backend_intern_005",
+    "profession": "backend",
+    "level": "intern",
+    "category": "caching",
+    "question": {
+      "ru": "Что такое rate limiting?",
+      "en": "Explain: Что такое rate limiting?",
+      "uk": "Поясніть: Что такое rate limiting?"
+    },
+    "keywords": [
+      "rate",
+      "limiting",
+      "abuse",
+      "quota"
+    ],
+    "expected_points": [
+      "limits requests",
+      "protects service",
+      "can be per user or IP"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "backend_junior_006",
+    "profession": "backend",
+    "level": "junior",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что делает API RESTful?",
+      "en": "Explain: Что делает API RESTful?",
+      "uk": "Поясніть: Что делает API RESTful?"
+    },
+    "keywords": [
+      "rest",
+      "resource",
+      "http",
+      "stateless"
+    ],
+    "expected_points": [
+      "resource-oriented URLs",
+      "HTTP methods",
+      "stateless requests"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "backend_junior_007",
+    "profession": "backend",
+    "level": "junior",
+    "category": "databases",
+    "question": {
+      "ru": "Когда нужен кэш?",
+      "en": "Explain: Когда нужен кэш?",
+      "uk": "Поясніть: Когда нужен кэш?"
+    },
+    "keywords": [
+      "cache",
+      "latency",
+      "load",
+      "invalidation"
+    ],
+    "expected_points": [
+      "reduces latency",
+      "lowers database load",
+      "requires invalidation strategy"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "backend_junior_008",
+    "profession": "backend",
+    "level": "junior",
+    "category": "architecture",
+    "question": {
+      "ru": "Что такое идемпотентность?",
+      "en": "Explain: Что такое идемпотентность?",
+      "uk": "Поясніть: Что такое идемпотентность?"
+    },
+    "keywords": [
+      "idempotent",
+      "retry",
+      "put",
+      "delete"
+    ],
+    "expected_points": [
+      "same request same effect",
+      "important for retries",
+      "PUT and DELETE usually idempotent"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "backend_junior_009",
+    "profession": "backend",
+    "level": "junior",
+    "category": "security",
+    "question": {
+      "ru": "Как проектировать пагинацию?",
+      "en": "Explain: Как проектировать пагинацию?",
+      "uk": "Поясніть: Как проектировать пагинацию?"
+    },
+    "keywords": [
+      "pagination",
+      "limit",
+      "offset",
+      "cursor"
+    ],
+    "expected_points": [
+      "limit response size",
+      "offset or cursor",
+      "stable ordering matters"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "backend_junior_010",
+    "profession": "backend",
+    "level": "junior",
+    "category": "caching",
+    "question": {
+      "ru": "Что такое rate limiting?",
+      "en": "Explain: Что такое rate limiting?",
+      "uk": "Поясніть: Что такое rate limiting?"
+    },
+    "keywords": [
+      "rate",
+      "limiting",
+      "abuse",
+      "quota"
+    ],
+    "expected_points": [
+      "limits requests",
+      "protects service",
+      "can be per user or IP"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "backend_middle_011",
+    "profession": "backend",
+    "level": "middle",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что делает API RESTful?",
+      "en": "Explain: Что делает API RESTful?",
+      "uk": "Поясніть: Что делает API RESTful?"
+    },
+    "keywords": [
+      "rest",
+      "resource",
+      "http",
+      "stateless"
+    ],
+    "expected_points": [
+      "resource-oriented URLs",
+      "HTTP methods",
+      "stateless requests"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "backend_middle_012",
+    "profession": "backend",
+    "level": "middle",
+    "category": "databases",
+    "question": {
+      "ru": "Когда нужен кэш?",
+      "en": "Explain: Когда нужен кэш?",
+      "uk": "Поясніть: Когда нужен кэш?"
+    },
+    "keywords": [
+      "cache",
+      "latency",
+      "load",
+      "invalidation"
+    ],
+    "expected_points": [
+      "reduces latency",
+      "lowers database load",
+      "requires invalidation strategy"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "backend_middle_013",
+    "profession": "backend",
+    "level": "middle",
+    "category": "architecture",
+    "question": {
+      "ru": "Что такое идемпотентность?",
+      "en": "Explain: Что такое идемпотентность?",
+      "uk": "Поясніть: Что такое идемпотентность?"
+    },
+    "keywords": [
+      "idempotent",
+      "retry",
+      "put",
+      "delete"
+    ],
+    "expected_points": [
+      "same request same effect",
+      "important for retries",
+      "PUT and DELETE usually idempotent"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "backend_middle_014",
+    "profession": "backend",
+    "level": "middle",
+    "category": "security",
+    "question": {
+      "ru": "Как проектировать пагинацию?",
+      "en": "Explain: Как проектировать пагинацию?",
+      "uk": "Поясніть: Как проектировать пагинацию?"
+    },
+    "keywords": [
+      "pagination",
+      "limit",
+      "offset",
+      "cursor"
+    ],
+    "expected_points": [
+      "limit response size",
+      "offset or cursor",
+      "stable ordering matters"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "backend_middle_015",
+    "profession": "backend",
+    "level": "middle",
+    "category": "caching",
+    "question": {
+      "ru": "Что такое rate limiting?",
+      "en": "Explain: Что такое rate limiting?",
+      "uk": "Поясніть: Что такое rate limiting?"
+    },
+    "keywords": [
+      "rate",
+      "limiting",
+      "abuse",
+      "quota"
+    ],
+    "expected_points": [
+      "limits requests",
+      "protects service",
+      "can be per user or IP"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "backend_senior_016",
+    "profession": "backend",
+    "level": "senior",
+    "category": "rest_api",
+    "question": {
+      "ru": "Что делает API RESTful?",
+      "en": "Explain: Что делает API RESTful?",
+      "uk": "Поясніть: Что делает API RESTful?"
+    },
+    "keywords": [
+      "rest",
+      "resource",
+      "http",
+      "stateless"
+    ],
+    "expected_points": [
+      "resource-oriented URLs",
+      "HTTP methods",
+      "stateless requests"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "backend_senior_017",
+    "profession": "backend",
+    "level": "senior",
+    "category": "databases",
+    "question": {
+      "ru": "Когда нужен кэш?",
+      "en": "Explain: Когда нужен кэш?",
+      "uk": "Поясніть: Когда нужен кэш?"
+    },
+    "keywords": [
+      "cache",
+      "latency",
+      "load",
+      "invalidation"
+    ],
+    "expected_points": [
+      "reduces latency",
+      "lowers database load",
+      "requires invalidation strategy"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "backend_senior_018",
+    "profession": "backend",
+    "level": "senior",
+    "category": "architecture",
+    "question": {
+      "ru": "Что такое идемпотентность?",
+      "en": "Explain: Что такое идемпотентность?",
+      "uk": "Поясніть: Что такое идемпотентность?"
+    },
+    "keywords": [
+      "idempotent",
+      "retry",
+      "put",
+      "delete"
+    ],
+    "expected_points": [
+      "same request same effect",
+      "important for retries",
+      "PUT and DELETE usually idempotent"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "backend_senior_019",
+    "profession": "backend",
+    "level": "senior",
+    "category": "security",
+    "question": {
+      "ru": "Как проектировать пагинацию?",
+      "en": "Explain: Как проектировать пагинацию?",
+      "uk": "Поясніть: Как проектировать пагинацию?"
+    },
+    "keywords": [
+      "pagination",
+      "limit",
+      "offset",
+      "cursor"
+    ],
+    "expected_points": [
+      "limit response size",
+      "offset or cursor",
+      "stable ordering matters"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "backend_senior_020",
+    "profession": "backend",
+    "level": "senior",
+    "category": "caching",
+    "question": {
+      "ru": "Что такое rate limiting?",
+      "en": "Explain: Что такое rate limiting?",
+      "uk": "Поясніть: Что такое rate limiting?"
+    },
+    "keywords": [
+      "rate",
+      "limiting",
+      "abuse",
+      "quota"
+    ],
+    "expected_points": [
+      "limits requests",
+      "protects service",
+      "can be per user or IP"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel question-panel">
+  <div class="header-row">
+    <div>
+      <p class="eyebrow">{{ interview.profession }} / {{ interview.level }}</p>
+      <h1>Вопрос {{ question.order_number }}</h1>
+    </div>
+    <span class="timer" data-timer>0s</span>
+  </div>
+  <div class="progress"><span style="width: {{ (interview.current_question_index / interview.requested_question_count * 100)|round }}%"></span></div>
+  <p class="question">{{ question.question_text }}</p>
+  <p><span class="badge">{{ question.category }}</span>{% if question.is_follow_up %}<span class="badge warn">follow-up</span>{% endif %}</p>
+  <form method="post" action="/interviews/{{ interview.id }}/answers" class="form">
+    <input type="hidden" name="question_id" value="{{ question.id }}">
+    <textarea name="answer_text" rows="9" maxlength="10000" required></textarea>
+    <div class="actions">
+      <button class="button">Отправить ответ</button>
+      <button type="button" class="button secondary" data-voice>Голосовой ввод</button>
+      <a class="button ghost" href="/interviews/{{ interview.id }}/finish">Закончить</a>
+    </div>
+  </form>
+</section>
+{% endblock %}
+

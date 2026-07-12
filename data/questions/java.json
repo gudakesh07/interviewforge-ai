@@ -1,0 +1,482 @@
+[
+  {
+    "id": "java_intern_001",
+    "profession": "java",
+    "level": "intern",
+    "category": "java_core",
+    "question": {
+      "ru": "Что такое JVM?",
+      "en": "Explain: Что такое JVM?",
+      "uk": "Поясніть: Что такое JVM?"
+    },
+    "keywords": [
+      "jvm",
+      "bytecode",
+      "runtime",
+      "gc"
+    ],
+    "expected_points": [
+      "runs bytecode",
+      "provides runtime",
+      "manages memory"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "java_intern_002",
+    "profession": "java",
+    "level": "intern",
+    "category": "oop",
+    "question": {
+      "ru": "Чем interface отличается от abstract class?",
+      "en": "Explain: Чем interface отличается от abstract class?",
+      "uk": "Поясніть: Чем interface отличается от abstract class?"
+    },
+    "keywords": [
+      "interface",
+      "abstract",
+      "inheritance",
+      "contract"
+    ],
+    "expected_points": [
+      "interfaces define contract",
+      "abstract classes can share state",
+      "multiple interfaces allowed"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "java_intern_003",
+    "profession": "java",
+    "level": "intern",
+    "category": "spring",
+    "question": {
+      "ru": "Как работает garbage collection?",
+      "en": "Explain: Как работает garbage collection?",
+      "uk": "Поясніть: Как работает garbage collection?"
+    },
+    "keywords": [
+      "garbage",
+      "collection",
+      "heap",
+      "reachability"
+    ],
+    "expected_points": [
+      "tracks reachable objects",
+      "frees heap memory",
+      "different collectors exist"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "java_intern_004",
+    "profession": "java",
+    "level": "intern",
+    "category": "sql",
+    "question": {
+      "ru": "Что такое dependency injection?",
+      "en": "Explain: Что такое dependency injection?",
+      "uk": "Поясніть: Что такое dependency injection?"
+    },
+    "keywords": [
+      "dependency",
+      "injection",
+      "spring",
+      "bean"
+    ],
+    "expected_points": [
+      "dependencies are provided",
+      "improves testability",
+      "Spring manages beans"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "java_intern_005",
+    "profession": "java",
+    "level": "intern",
+    "category": "concurrency",
+    "question": {
+      "ru": "Как избежать race condition?",
+      "en": "Explain: Как избежать race condition?",
+      "uk": "Поясніть: Как избежать race condition?"
+    },
+    "keywords": [
+      "race",
+      "condition",
+      "synchronization",
+      "locks"
+    ],
+    "expected_points": [
+      "shared state causes races",
+      "use synchronization",
+      "prefer immutable data"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "java_junior_006",
+    "profession": "java",
+    "level": "junior",
+    "category": "java_core",
+    "question": {
+      "ru": "Что такое JVM?",
+      "en": "Explain: Что такое JVM?",
+      "uk": "Поясніть: Что такое JVM?"
+    },
+    "keywords": [
+      "jvm",
+      "bytecode",
+      "runtime",
+      "gc"
+    ],
+    "expected_points": [
+      "runs bytecode",
+      "provides runtime",
+      "manages memory"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "java_junior_007",
+    "profession": "java",
+    "level": "junior",
+    "category": "oop",
+    "question": {
+      "ru": "Чем interface отличается от abstract class?",
+      "en": "Explain: Чем interface отличается от abstract class?",
+      "uk": "Поясніть: Чем interface отличается от abstract class?"
+    },
+    "keywords": [
+      "interface",
+      "abstract",
+      "inheritance",
+      "contract"
+    ],
+    "expected_points": [
+      "interfaces define contract",
+      "abstract classes can share state",
+      "multiple interfaces allowed"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "java_junior_008",
+    "profession": "java",
+    "level": "junior",
+    "category": "spring",
+    "question": {
+      "ru": "Как работает garbage collection?",
+      "en": "Explain: Как работает garbage collection?",
+      "uk": "Поясніть: Как работает garbage collection?"
+    },
+    "keywords": [
+      "garbage",
+      "collection",
+      "heap",
+      "reachability"
+    ],
+    "expected_points": [
+      "tracks reachable objects",
+      "frees heap memory",
+      "different collectors exist"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "java_junior_009",
+    "profession": "java",
+    "level": "junior",
+    "category": "sql",
+    "question": {
+      "ru": "Что такое dependency injection?",
+      "en": "Explain: Что такое dependency injection?",
+      "uk": "Поясніть: Что такое dependency injection?"
+    },
+    "keywords": [
+      "dependency",
+      "injection",
+      "spring",
+      "bean"
+    ],
+    "expected_points": [
+      "dependencies are provided",
+      "improves testability",
+      "Spring manages beans"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "java_junior_010",
+    "profession": "java",
+    "level": "junior",
+    "category": "concurrency",
+    "question": {
+      "ru": "Как избежать race condition?",
+      "en": "Explain: Как избежать race condition?",
+      "uk": "Поясніть: Как избежать race condition?"
+    },
+    "keywords": [
+      "race",
+      "condition",
+      "synchronization",
+      "locks"
+    ],
+    "expected_points": [
+      "shared state causes races",
+      "use synchronization",
+      "prefer immutable data"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "java_middle_011",
+    "profession": "java",
+    "level": "middle",
+    "category": "java_core",
+    "question": {
+      "ru": "Что такое JVM?",
+      "en": "Explain: Что такое JVM?",
+      "uk": "Поясніть: Что такое JVM?"
+    },
+    "keywords": [
+      "jvm",
+      "bytecode",
+      "runtime",
+      "gc"
+    ],
+    "expected_points": [
+      "runs bytecode",
+      "provides runtime",
+      "manages memory"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "java_middle_012",
+    "profession": "java",
+    "level": "middle",
+    "category": "oop",
+    "question": {
+      "ru": "Чем interface отличается от abstract class?",
+      "en": "Explain: Чем interface отличается от abstract class?",
+      "uk": "Поясніть: Чем interface отличается от abstract class?"
+    },
+    "keywords": [
+      "interface",
+      "abstract",
+      "inheritance",
+      "contract"
+    ],
+    "expected_points": [
+      "interfaces define contract",
+      "abstract classes can share state",
+      "multiple interfaces allowed"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "java_middle_013",
+    "profession": "java",
+    "level": "middle",
+    "category": "spring",
+    "question": {
+      "ru": "Как работает garbage collection?",
+      "en": "Explain: Как работает garbage collection?",
+      "uk": "Поясніть: Как работает garbage collection?"
+    },
+    "keywords": [
+      "garbage",
+      "collection",
+      "heap",
+      "reachability"
+    ],
+    "expected_points": [
+      "tracks reachable objects",
+      "frees heap memory",
+      "different collectors exist"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "java_middle_014",
+    "profession": "java",
+    "level": "middle",
+    "category": "sql",
+    "question": {
+      "ru": "Что такое dependency injection?",
+      "en": "Explain: Что такое dependency injection?",
+      "uk": "Поясніть: Что такое dependency injection?"
+    },
+    "keywords": [
+      "dependency",
+      "injection",
+      "spring",
+      "bean"
+    ],
+    "expected_points": [
+      "dependencies are provided",
+      "improves testability",
+      "Spring manages beans"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "java_middle_015",
+    "profession": "java",
+    "level": "middle",
+    "category": "concurrency",
+    "question": {
+      "ru": "Как избежать race condition?",
+      "en": "Explain: Как избежать race condition?",
+      "uk": "Поясніть: Как избежать race condition?"
+    },
+    "keywords": [
+      "race",
+      "condition",
+      "synchronization",
+      "locks"
+    ],
+    "expected_points": [
+      "shared state causes races",
+      "use synchronization",
+      "prefer immutable data"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "java_senior_016",
+    "profession": "java",
+    "level": "senior",
+    "category": "java_core",
+    "question": {
+      "ru": "Что такое JVM?",
+      "en": "Explain: Что такое JVM?",
+      "uk": "Поясніть: Что такое JVM?"
+    },
+    "keywords": [
+      "jvm",
+      "bytecode",
+      "runtime",
+      "gc"
+    ],
+    "expected_points": [
+      "runs bytecode",
+      "provides runtime",
+      "manages memory"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "java_senior_017",
+    "profession": "java",
+    "level": "senior",
+    "category": "oop",
+    "question": {
+      "ru": "Чем interface отличается от abstract class?",
+      "en": "Explain: Чем interface отличается от abstract class?",
+      "uk": "Поясніть: Чем interface отличается от abstract class?"
+    },
+    "keywords": [
+      "interface",
+      "abstract",
+      "inheritance",
+      "contract"
+    ],
+    "expected_points": [
+      "interfaces define contract",
+      "abstract classes can share state",
+      "multiple interfaces allowed"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "java_senior_018",
+    "profession": "java",
+    "level": "senior",
+    "category": "spring",
+    "question": {
+      "ru": "Как работает garbage collection?",
+      "en": "Explain: Как работает garbage collection?",
+      "uk": "Поясніть: Как работает garbage collection?"
+    },
+    "keywords": [
+      "garbage",
+      "collection",
+      "heap",
+      "reachability"
+    ],
+    "expected_points": [
+      "tracks reachable objects",
+      "frees heap memory",
+      "different collectors exist"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "java_senior_019",
+    "profession": "java",
+    "level": "senior",
+    "category": "sql",
+    "question": {
+      "ru": "Что такое dependency injection?",
+      "en": "Explain: Что такое dependency injection?",
+      "uk": "Поясніть: Что такое dependency injection?"
+    },
+    "keywords": [
+      "dependency",
+      "injection",
+      "spring",
+      "bean"
+    ],
+    "expected_points": [
+      "dependencies are provided",
+      "improves testability",
+      "Spring manages beans"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "java_senior_020",
+    "profession": "java",
+    "level": "senior",
+    "category": "concurrency",
+    "question": {
+      "ru": "Как избежать race condition?",
+      "en": "Explain: Как избежать race condition?",
+      "uk": "Поясніть: Как избежать race condition?"
+    },
+    "keywords": [
+      "race",
+      "condition",
+      "synchronization",
+      "locks"
+    ],
+    "expected_points": [
+      "shared state causes races",
+      "use synchronization",
+      "prefer immutable data"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

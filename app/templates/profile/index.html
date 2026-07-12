@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel narrow">
+  <h1>Профиль</h1>
+  <p>Username: {{ user.username }}</p>
+  <p>Email: {{ user.email }}</p>
+  <p>Язык: {{ user.preferred_language }}</p>
+</section>
+{% endblock %}
+

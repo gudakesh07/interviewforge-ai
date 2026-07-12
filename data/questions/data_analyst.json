@@ -1,0 +1,478 @@
+[
+  {
+    "id": "data_analyst_intern_001",
+    "profession": "data_analyst",
+    "level": "intern",
+    "category": "sql",
+    "question": {
+      "ru": "Чем INNER JOIN отличается от LEFT JOIN?",
+      "en": "Explain: Чем INNER JOIN отличается от LEFT JOIN?",
+      "uk": "Поясніть: Чем INNER JOIN отличается от LEFT JOIN?"
+    },
+    "keywords": [
+      "inner",
+      "left",
+      "join",
+      "null"
+    ],
+    "expected_points": [
+      "inner keeps matches",
+      "left keeps left rows",
+      "missing right values are NULL"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_intern_002",
+    "profession": "data_analyst",
+    "level": "intern",
+    "category": "statistics",
+    "question": {
+      "ru": "Что такое медиана?",
+      "en": "Explain: Что такое медиана?",
+      "uk": "Поясніть: Что такое медиана?"
+    },
+    "keywords": [
+      "median",
+      "distribution",
+      "outliers"
+    ],
+    "expected_points": [
+      "middle value",
+      "robust to outliers",
+      "requires sorted data"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_intern_003",
+    "profession": "data_analyst",
+    "level": "intern",
+    "category": "python",
+    "question": {
+      "ru": "Как выбрать метрику продукта?",
+      "en": "Explain: Как выбрать метрику продукта?",
+      "uk": "Поясніть: Как выбрать метрику продукта?"
+    },
+    "keywords": [
+      "metric",
+      "goal",
+      "behavior",
+      "guardrail"
+    ],
+    "expected_points": [
+      "linked to goal",
+      "captures behavior",
+      "guardrail metrics prevent harm"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_intern_004",
+    "profession": "data_analyst",
+    "level": "intern",
+    "category": "visualization",
+    "question": {
+      "ru": "Когда использовать histogram?",
+      "en": "Explain: Когда использовать histogram?",
+      "uk": "Поясніть: Когда использовать histogram?"
+    },
+    "keywords": [
+      "histogram",
+      "distribution",
+      "bins"
+    ],
+    "expected_points": [
+      "shows distribution",
+      "uses bins",
+      "good for numeric data"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_intern_005",
+    "profession": "data_analyst",
+    "level": "intern",
+    "category": "metrics",
+    "question": {
+      "ru": "Как проверить качество данных?",
+      "en": "Explain: Как проверить качество данных?",
+      "uk": "Поясніть: Как проверить качество данных?"
+    },
+    "keywords": [
+      "data",
+      "quality",
+      "missing",
+      "duplicates",
+      "consistency"
+    ],
+    "expected_points": [
+      "missing values",
+      "duplicates",
+      "consistency checks"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_junior_006",
+    "profession": "data_analyst",
+    "level": "junior",
+    "category": "sql",
+    "question": {
+      "ru": "Чем INNER JOIN отличается от LEFT JOIN?",
+      "en": "Explain: Чем INNER JOIN отличается от LEFT JOIN?",
+      "uk": "Поясніть: Чем INNER JOIN отличается от LEFT JOIN?"
+    },
+    "keywords": [
+      "inner",
+      "left",
+      "join",
+      "null"
+    ],
+    "expected_points": [
+      "inner keeps matches",
+      "left keeps left rows",
+      "missing right values are NULL"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_junior_007",
+    "profession": "data_analyst",
+    "level": "junior",
+    "category": "statistics",
+    "question": {
+      "ru": "Что такое медиана?",
+      "en": "Explain: Что такое медиана?",
+      "uk": "Поясніть: Что такое медиана?"
+    },
+    "keywords": [
+      "median",
+      "distribution",
+      "outliers"
+    ],
+    "expected_points": [
+      "middle value",
+      "robust to outliers",
+      "requires sorted data"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_junior_008",
+    "profession": "data_analyst",
+    "level": "junior",
+    "category": "python",
+    "question": {
+      "ru": "Как выбрать метрику продукта?",
+      "en": "Explain: Как выбрать метрику продукта?",
+      "uk": "Поясніть: Как выбрать метрику продукта?"
+    },
+    "keywords": [
+      "metric",
+      "goal",
+      "behavior",
+      "guardrail"
+    ],
+    "expected_points": [
+      "linked to goal",
+      "captures behavior",
+      "guardrail metrics prevent harm"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_junior_009",
+    "profession": "data_analyst",
+    "level": "junior",
+    "category": "visualization",
+    "question": {
+      "ru": "Когда использовать histogram?",
+      "en": "Explain: Когда использовать histogram?",
+      "uk": "Поясніть: Когда использовать histogram?"
+    },
+    "keywords": [
+      "histogram",
+      "distribution",
+      "bins"
+    ],
+    "expected_points": [
+      "shows distribution",
+      "uses bins",
+      "good for numeric data"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_junior_010",
+    "profession": "data_analyst",
+    "level": "junior",
+    "category": "metrics",
+    "question": {
+      "ru": "Как проверить качество данных?",
+      "en": "Explain: Как проверить качество данных?",
+      "uk": "Поясніть: Как проверить качество данных?"
+    },
+    "keywords": [
+      "data",
+      "quality",
+      "missing",
+      "duplicates",
+      "consistency"
+    ],
+    "expected_points": [
+      "missing values",
+      "duplicates",
+      "consistency checks"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_middle_011",
+    "profession": "data_analyst",
+    "level": "middle",
+    "category": "sql",
+    "question": {
+      "ru": "Чем INNER JOIN отличается от LEFT JOIN?",
+      "en": "Explain: Чем INNER JOIN отличается от LEFT JOIN?",
+      "uk": "Поясніть: Чем INNER JOIN отличается от LEFT JOIN?"
+    },
+    "keywords": [
+      "inner",
+      "left",
+      "join",
+      "null"
+    ],
+    "expected_points": [
+      "inner keeps matches",
+      "left keeps left rows",
+      "missing right values are NULL"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_middle_012",
+    "profession": "data_analyst",
+    "level": "middle",
+    "category": "statistics",
+    "question": {
+      "ru": "Что такое медиана?",
+      "en": "Explain: Что такое медиана?",
+      "uk": "Поясніть: Что такое медиана?"
+    },
+    "keywords": [
+      "median",
+      "distribution",
+      "outliers"
+    ],
+    "expected_points": [
+      "middle value",
+      "robust to outliers",
+      "requires sorted data"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_middle_013",
+    "profession": "data_analyst",
+    "level": "middle",
+    "category": "python",
+    "question": {
+      "ru": "Как выбрать метрику продукта?",
+      "en": "Explain: Как выбрать метрику продукта?",
+      "uk": "Поясніть: Как выбрать метрику продукта?"
+    },
+    "keywords": [
+      "metric",
+      "goal",
+      "behavior",
+      "guardrail"
+    ],
+    "expected_points": [
+      "linked to goal",
+      "captures behavior",
+      "guardrail metrics prevent harm"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_middle_014",
+    "profession": "data_analyst",
+    "level": "middle",
+    "category": "visualization",
+    "question": {
+      "ru": "Когда использовать histogram?",
+      "en": "Explain: Когда использовать histogram?",
+      "uk": "Поясніть: Когда использовать histogram?"
+    },
+    "keywords": [
+      "histogram",
+      "distribution",
+      "bins"
+    ],
+    "expected_points": [
+      "shows distribution",
+      "uses bins",
+      "good for numeric data"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_middle_015",
+    "profession": "data_analyst",
+    "level": "middle",
+    "category": "metrics",
+    "question": {
+      "ru": "Как проверить качество данных?",
+      "en": "Explain: Как проверить качество данных?",
+      "uk": "Поясніть: Как проверить качество данных?"
+    },
+    "keywords": [
+      "data",
+      "quality",
+      "missing",
+      "duplicates",
+      "consistency"
+    ],
+    "expected_points": [
+      "missing values",
+      "duplicates",
+      "consistency checks"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_senior_016",
+    "profession": "data_analyst",
+    "level": "senior",
+    "category": "sql",
+    "question": {
+      "ru": "Чем INNER JOIN отличается от LEFT JOIN?",
+      "en": "Explain: Чем INNER JOIN отличается от LEFT JOIN?",
+      "uk": "Поясніть: Чем INNER JOIN отличается от LEFT JOIN?"
+    },
+    "keywords": [
+      "inner",
+      "left",
+      "join",
+      "null"
+    ],
+    "expected_points": [
+      "inner keeps matches",
+      "left keeps left rows",
+      "missing right values are NULL"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_senior_017",
+    "profession": "data_analyst",
+    "level": "senior",
+    "category": "statistics",
+    "question": {
+      "ru": "Что такое медиана?",
+      "en": "Explain: Что такое медиана?",
+      "uk": "Поясніть: Что такое медиана?"
+    },
+    "keywords": [
+      "median",
+      "distribution",
+      "outliers"
+    ],
+    "expected_points": [
+      "middle value",
+      "robust to outliers",
+      "requires sorted data"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_senior_018",
+    "profession": "data_analyst",
+    "level": "senior",
+    "category": "python",
+    "question": {
+      "ru": "Как выбрать метрику продукта?",
+      "en": "Explain: Как выбрать метрику продукта?",
+      "uk": "Поясніть: Как выбрать метрику продукта?"
+    },
+    "keywords": [
+      "metric",
+      "goal",
+      "behavior",
+      "guardrail"
+    ],
+    "expected_points": [
+      "linked to goal",
+      "captures behavior",
+      "guardrail metrics prevent harm"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_senior_019",
+    "profession": "data_analyst",
+    "level": "senior",
+    "category": "visualization",
+    "question": {
+      "ru": "Когда использовать histogram?",
+      "en": "Explain: Когда использовать histogram?",
+      "uk": "Поясніть: Когда использовать histogram?"
+    },
+    "keywords": [
+      "histogram",
+      "distribution",
+      "bins"
+    ],
+    "expected_points": [
+      "shows distribution",
+      "uses bins",
+      "good for numeric data"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "data_analyst_senior_020",
+    "profession": "data_analyst",
+    "level": "senior",
+    "category": "metrics",
+    "question": {
+      "ru": "Как проверить качество данных?",
+      "en": "Explain: Как проверить качество данных?",
+      "uk": "Поясніть: Как проверить качество данных?"
+    },
+    "keywords": [
+      "data",
+      "quality",
+      "missing",
+      "duplicates",
+      "consistency"
+    ],
+    "expected_points": [
+      "missing values",
+      "duplicates",
+      "consistency checks"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

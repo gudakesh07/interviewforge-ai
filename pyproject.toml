@@ -1,0 +1,18 @@
+[project]
+name = "interviewforge-ai"
+version = "0.1.0"
+description = "FastAPI interview practice app with local evaluation and AI provider fallback."
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["B008", "E501"]
+exclude = [".venv", "migrations/versions"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

@@ -1,0 +1,486 @@
+[
+  {
+    "id": "devops_intern_001",
+    "profession": "devops",
+    "level": "intern",
+    "category": "linux",
+    "question": {
+      "ru": "Что такое Docker image?",
+      "en": "Explain: Что такое Docker image?",
+      "uk": "Поясніть: Что такое Docker image?"
+    },
+    "keywords": [
+      "docker",
+      "image",
+      "layer",
+      "container"
+    ],
+    "expected_points": [
+      "image is template",
+      "layers are cached",
+      "container runs image"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "devops_intern_002",
+    "profession": "devops",
+    "level": "intern",
+    "category": "docker",
+    "question": {
+      "ru": "Что должно быть в CI pipeline?",
+      "en": "Explain: Что должно быть в CI pipeline?",
+      "uk": "Поясніть: Что должно быть в CI pipeline?"
+    },
+    "keywords": [
+      "ci",
+      "test",
+      "lint",
+      "build",
+      "deploy"
+    ],
+    "expected_points": [
+      "install dependencies",
+      "lint and test",
+      "build artifact"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "devops_intern_003",
+    "profession": "devops",
+    "level": "intern",
+    "category": "ci_cd",
+    "question": {
+      "ru": "Как читать логи сервиса?",
+      "en": "Explain: Как читать логи сервиса?",
+      "uk": "Поясніть: Как читать логи сервиса?"
+    },
+    "keywords": [
+      "logs",
+      "timestamp",
+      "level",
+      "trace"
+    ],
+    "expected_points": [
+      "check timestamps",
+      "levels matter",
+      "correlate with traces"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "devops_intern_004",
+    "profession": "devops",
+    "level": "intern",
+    "category": "networking",
+    "question": {
+      "ru": "Что такое healthcheck?",
+      "en": "Explain: Что такое healthcheck?",
+      "uk": "Поясніть: Что такое healthcheck?"
+    },
+    "keywords": [
+      "healthcheck",
+      "readiness",
+      "liveness"
+    ],
+    "expected_points": [
+      "checks service health",
+      "used by orchestrators",
+      "can separate readiness"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "devops_intern_005",
+    "profession": "devops",
+    "level": "intern",
+    "category": "monitoring",
+    "question": {
+      "ru": "Как диагностировать сетевую проблему?",
+      "en": "Explain: Как диагностировать сетевую проблему?",
+      "uk": "Поясніть: Как диагностировать сетевую проблему?"
+    },
+    "keywords": [
+      "network",
+      "dns",
+      "ping",
+      "curl",
+      "port"
+    ],
+    "expected_points": [
+      "check DNS",
+      "check connectivity",
+      "check ports and firewall"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "devops_junior_006",
+    "profession": "devops",
+    "level": "junior",
+    "category": "linux",
+    "question": {
+      "ru": "Что такое Docker image?",
+      "en": "Explain: Что такое Docker image?",
+      "uk": "Поясніть: Что такое Docker image?"
+    },
+    "keywords": [
+      "docker",
+      "image",
+      "layer",
+      "container"
+    ],
+    "expected_points": [
+      "image is template",
+      "layers are cached",
+      "container runs image"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "devops_junior_007",
+    "profession": "devops",
+    "level": "junior",
+    "category": "docker",
+    "question": {
+      "ru": "Что должно быть в CI pipeline?",
+      "en": "Explain: Что должно быть в CI pipeline?",
+      "uk": "Поясніть: Что должно быть в CI pipeline?"
+    },
+    "keywords": [
+      "ci",
+      "test",
+      "lint",
+      "build",
+      "deploy"
+    ],
+    "expected_points": [
+      "install dependencies",
+      "lint and test",
+      "build artifact"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "devops_junior_008",
+    "profession": "devops",
+    "level": "junior",
+    "category": "ci_cd",
+    "question": {
+      "ru": "Как читать логи сервиса?",
+      "en": "Explain: Как читать логи сервиса?",
+      "uk": "Поясніть: Как читать логи сервиса?"
+    },
+    "keywords": [
+      "logs",
+      "timestamp",
+      "level",
+      "trace"
+    ],
+    "expected_points": [
+      "check timestamps",
+      "levels matter",
+      "correlate with traces"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "devops_junior_009",
+    "profession": "devops",
+    "level": "junior",
+    "category": "networking",
+    "question": {
+      "ru": "Что такое healthcheck?",
+      "en": "Explain: Что такое healthcheck?",
+      "uk": "Поясніть: Что такое healthcheck?"
+    },
+    "keywords": [
+      "healthcheck",
+      "readiness",
+      "liveness"
+    ],
+    "expected_points": [
+      "checks service health",
+      "used by orchestrators",
+      "can separate readiness"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "devops_junior_010",
+    "profession": "devops",
+    "level": "junior",
+    "category": "monitoring",
+    "question": {
+      "ru": "Как диагностировать сетевую проблему?",
+      "en": "Explain: Как диагностировать сетевую проблему?",
+      "uk": "Поясніть: Как диагностировать сетевую проблему?"
+    },
+    "keywords": [
+      "network",
+      "dns",
+      "ping",
+      "curl",
+      "port"
+    ],
+    "expected_points": [
+      "check DNS",
+      "check connectivity",
+      "check ports and firewall"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "devops_middle_011",
+    "profession": "devops",
+    "level": "middle",
+    "category": "linux",
+    "question": {
+      "ru": "Что такое Docker image?",
+      "en": "Explain: Что такое Docker image?",
+      "uk": "Поясніть: Что такое Docker image?"
+    },
+    "keywords": [
+      "docker",
+      "image",
+      "layer",
+      "container"
+    ],
+    "expected_points": [
+      "image is template",
+      "layers are cached",
+      "container runs image"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "devops_middle_012",
+    "profession": "devops",
+    "level": "middle",
+    "category": "docker",
+    "question": {
+      "ru": "Что должно быть в CI pipeline?",
+      "en": "Explain: Что должно быть в CI pipeline?",
+      "uk": "Поясніть: Что должно быть в CI pipeline?"
+    },
+    "keywords": [
+      "ci",
+      "test",
+      "lint",
+      "build",
+      "deploy"
+    ],
+    "expected_points": [
+      "install dependencies",
+      "lint and test",
+      "build artifact"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "devops_middle_013",
+    "profession": "devops",
+    "level": "middle",
+    "category": "ci_cd",
+    "question": {
+      "ru": "Как читать логи сервиса?",
+      "en": "Explain: Как читать логи сервиса?",
+      "uk": "Поясніть: Как читать логи сервиса?"
+    },
+    "keywords": [
+      "logs",
+      "timestamp",
+      "level",
+      "trace"
+    ],
+    "expected_points": [
+      "check timestamps",
+      "levels matter",
+      "correlate with traces"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "devops_middle_014",
+    "profession": "devops",
+    "level": "middle",
+    "category": "networking",
+    "question": {
+      "ru": "Что такое healthcheck?",
+      "en": "Explain: Что такое healthcheck?",
+      "uk": "Поясніть: Что такое healthcheck?"
+    },
+    "keywords": [
+      "healthcheck",
+      "readiness",
+      "liveness"
+    ],
+    "expected_points": [
+      "checks service health",
+      "used by orchestrators",
+      "can separate readiness"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "devops_middle_015",
+    "profession": "devops",
+    "level": "middle",
+    "category": "monitoring",
+    "question": {
+      "ru": "Как диагностировать сетевую проблему?",
+      "en": "Explain: Как диагностировать сетевую проблему?",
+      "uk": "Поясніть: Как диагностировать сетевую проблему?"
+    },
+    "keywords": [
+      "network",
+      "dns",
+      "ping",
+      "curl",
+      "port"
+    ],
+    "expected_points": [
+      "check DNS",
+      "check connectivity",
+      "check ports and firewall"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "devops_senior_016",
+    "profession": "devops",
+    "level": "senior",
+    "category": "linux",
+    "question": {
+      "ru": "Что такое Docker image?",
+      "en": "Explain: Что такое Docker image?",
+      "uk": "Поясніть: Что такое Docker image?"
+    },
+    "keywords": [
+      "docker",
+      "image",
+      "layer",
+      "container"
+    ],
+    "expected_points": [
+      "image is template",
+      "layers are cached",
+      "container runs image"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "devops_senior_017",
+    "profession": "devops",
+    "level": "senior",
+    "category": "docker",
+    "question": {
+      "ru": "Что должно быть в CI pipeline?",
+      "en": "Explain: Что должно быть в CI pipeline?",
+      "uk": "Поясніть: Что должно быть в CI pipeline?"
+    },
+    "keywords": [
+      "ci",
+      "test",
+      "lint",
+      "build",
+      "deploy"
+    ],
+    "expected_points": [
+      "install dependencies",
+      "lint and test",
+      "build artifact"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "devops_senior_018",
+    "profession": "devops",
+    "level": "senior",
+    "category": "ci_cd",
+    "question": {
+      "ru": "Как читать логи сервиса?",
+      "en": "Explain: Как читать логи сервиса?",
+      "uk": "Поясніть: Как читать логи сервиса?"
+    },
+    "keywords": [
+      "logs",
+      "timestamp",
+      "level",
+      "trace"
+    ],
+    "expected_points": [
+      "check timestamps",
+      "levels matter",
+      "correlate with traces"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "devops_senior_019",
+    "profession": "devops",
+    "level": "senior",
+    "category": "networking",
+    "question": {
+      "ru": "Что такое healthcheck?",
+      "en": "Explain: Что такое healthcheck?",
+      "uk": "Поясніть: Что такое healthcheck?"
+    },
+    "keywords": [
+      "healthcheck",
+      "readiness",
+      "liveness"
+    ],
+    "expected_points": [
+      "checks service health",
+      "used by orchestrators",
+      "can separate readiness"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "devops_senior_020",
+    "profession": "devops",
+    "level": "senior",
+    "category": "monitoring",
+    "question": {
+      "ru": "Как диагностировать сетевую проблему?",
+      "en": "Explain: Как диагностировать сетевую проблему?",
+      "uk": "Поясніть: Как диагностировать сетевую проблему?"
+    },
+    "keywords": [
+      "network",
+      "dns",
+      "ping",
+      "curl",
+      "port"
+    ],
+    "expected_points": [
+      "check DNS",
+      "check connectivity",
+      "check ports and firewall"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

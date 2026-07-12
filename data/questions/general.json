@@ -1,0 +1,486 @@
+[
+  {
+    "id": "general_intern_001",
+    "profession": "general",
+    "level": "intern",
+    "category": "algorithms",
+    "question": {
+      "ru": "Что такое Big O?",
+      "en": "Explain: Что такое Big O?",
+      "uk": "Поясніть: Что такое Big O?"
+    },
+    "keywords": [
+      "big",
+      "o",
+      "complexity",
+      "time",
+      "space"
+    ],
+    "expected_points": [
+      "describes growth",
+      "time or space complexity",
+      "worst case often used"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "general_intern_002",
+    "profession": "general",
+    "level": "intern",
+    "category": "git",
+    "question": {
+      "ru": "Как работает Git merge?",
+      "en": "Explain: Как работает Git merge?",
+      "uk": "Поясніть: Как работает Git merge?"
+    },
+    "keywords": [
+      "git",
+      "merge",
+      "branch",
+      "conflict"
+    ],
+    "expected_points": [
+      "combines histories",
+      "may create merge commit",
+      "conflicts need resolution"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "general_intern_003",
+    "profession": "general",
+    "level": "intern",
+    "category": "databases",
+    "question": {
+      "ru": "Зачем нужны индексы в базе данных?",
+      "en": "Explain: Зачем нужны индексы в базе данных?",
+      "uk": "Поясніть: Зачем нужны индексы в базе данных?"
+    },
+    "keywords": [
+      "index",
+      "database",
+      "query",
+      "performance"
+    ],
+    "expected_points": [
+      "speed up reads",
+      "cost writes and storage",
+      "choose by query patterns"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "general_intern_004",
+    "profession": "general",
+    "level": "intern",
+    "category": "system_design",
+    "question": {
+      "ru": "Что такое горизонтальное масштабирование?",
+      "en": "Explain: Что такое горизонтальное масштабирование?",
+      "uk": "Поясніть: Что такое горизонтальное масштабирование?"
+    },
+    "keywords": [
+      "scaling",
+      "horizontal",
+      "instances",
+      "load"
+    ],
+    "expected_points": [
+      "add instances",
+      "use load balancing",
+      "state must be shared or externalized"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "general_intern_005",
+    "profession": "general",
+    "level": "intern",
+    "category": "communication",
+    "question": {
+      "ru": "Как объяснить сложную идею новичку?",
+      "en": "Explain: Как объяснить сложную идею новичку?",
+      "uk": "Поясніть: Как объяснить сложную идею новичку?"
+    },
+    "keywords": [
+      "communication",
+      "simplify",
+      "analogy",
+      "feedback"
+    ],
+    "expected_points": [
+      "simplify terms",
+      "use examples",
+      "check understanding"
+    ],
+    "difficulty": 1,
+    "max_score": 100
+  },
+  {
+    "id": "general_junior_006",
+    "profession": "general",
+    "level": "junior",
+    "category": "algorithms",
+    "question": {
+      "ru": "Что такое Big O?",
+      "en": "Explain: Что такое Big O?",
+      "uk": "Поясніть: Что такое Big O?"
+    },
+    "keywords": [
+      "big",
+      "o",
+      "complexity",
+      "time",
+      "space"
+    ],
+    "expected_points": [
+      "describes growth",
+      "time or space complexity",
+      "worst case often used"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "general_junior_007",
+    "profession": "general",
+    "level": "junior",
+    "category": "git",
+    "question": {
+      "ru": "Как работает Git merge?",
+      "en": "Explain: Как работает Git merge?",
+      "uk": "Поясніть: Как работает Git merge?"
+    },
+    "keywords": [
+      "git",
+      "merge",
+      "branch",
+      "conflict"
+    ],
+    "expected_points": [
+      "combines histories",
+      "may create merge commit",
+      "conflicts need resolution"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "general_junior_008",
+    "profession": "general",
+    "level": "junior",
+    "category": "databases",
+    "question": {
+      "ru": "Зачем нужны индексы в базе данных?",
+      "en": "Explain: Зачем нужны индексы в базе данных?",
+      "uk": "Поясніть: Зачем нужны индексы в базе данных?"
+    },
+    "keywords": [
+      "index",
+      "database",
+      "query",
+      "performance"
+    ],
+    "expected_points": [
+      "speed up reads",
+      "cost writes and storage",
+      "choose by query patterns"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "general_junior_009",
+    "profession": "general",
+    "level": "junior",
+    "category": "system_design",
+    "question": {
+      "ru": "Что такое горизонтальное масштабирование?",
+      "en": "Explain: Что такое горизонтальное масштабирование?",
+      "uk": "Поясніть: Что такое горизонтальное масштабирование?"
+    },
+    "keywords": [
+      "scaling",
+      "horizontal",
+      "instances",
+      "load"
+    ],
+    "expected_points": [
+      "add instances",
+      "use load balancing",
+      "state must be shared or externalized"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "general_junior_010",
+    "profession": "general",
+    "level": "junior",
+    "category": "communication",
+    "question": {
+      "ru": "Как объяснить сложную идею новичку?",
+      "en": "Explain: Как объяснить сложную идею новичку?",
+      "uk": "Поясніть: Как объяснить сложную идею новичку?"
+    },
+    "keywords": [
+      "communication",
+      "simplify",
+      "analogy",
+      "feedback"
+    ],
+    "expected_points": [
+      "simplify terms",
+      "use examples",
+      "check understanding"
+    ],
+    "difficulty": 2,
+    "max_score": 100
+  },
+  {
+    "id": "general_middle_011",
+    "profession": "general",
+    "level": "middle",
+    "category": "algorithms",
+    "question": {
+      "ru": "Что такое Big O?",
+      "en": "Explain: Что такое Big O?",
+      "uk": "Поясніть: Что такое Big O?"
+    },
+    "keywords": [
+      "big",
+      "o",
+      "complexity",
+      "time",
+      "space"
+    ],
+    "expected_points": [
+      "describes growth",
+      "time or space complexity",
+      "worst case often used"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "general_middle_012",
+    "profession": "general",
+    "level": "middle",
+    "category": "git",
+    "question": {
+      "ru": "Как работает Git merge?",
+      "en": "Explain: Как работает Git merge?",
+      "uk": "Поясніть: Как работает Git merge?"
+    },
+    "keywords": [
+      "git",
+      "merge",
+      "branch",
+      "conflict"
+    ],
+    "expected_points": [
+      "combines histories",
+      "may create merge commit",
+      "conflicts need resolution"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "general_middle_013",
+    "profession": "general",
+    "level": "middle",
+    "category": "databases",
+    "question": {
+      "ru": "Зачем нужны индексы в базе данных?",
+      "en": "Explain: Зачем нужны индексы в базе данных?",
+      "uk": "Поясніть: Зачем нужны индексы в базе данных?"
+    },
+    "keywords": [
+      "index",
+      "database",
+      "query",
+      "performance"
+    ],
+    "expected_points": [
+      "speed up reads",
+      "cost writes and storage",
+      "choose by query patterns"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "general_middle_014",
+    "profession": "general",
+    "level": "middle",
+    "category": "system_design",
+    "question": {
+      "ru": "Что такое горизонтальное масштабирование?",
+      "en": "Explain: Что такое горизонтальное масштабирование?",
+      "uk": "Поясніть: Что такое горизонтальное масштабирование?"
+    },
+    "keywords": [
+      "scaling",
+      "horizontal",
+      "instances",
+      "load"
+    ],
+    "expected_points": [
+      "add instances",
+      "use load balancing",
+      "state must be shared or externalized"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "general_middle_015",
+    "profession": "general",
+    "level": "middle",
+    "category": "communication",
+    "question": {
+      "ru": "Как объяснить сложную идею новичку?",
+      "en": "Explain: Как объяснить сложную идею новичку?",
+      "uk": "Поясніть: Как объяснить сложную идею новичку?"
+    },
+    "keywords": [
+      "communication",
+      "simplify",
+      "analogy",
+      "feedback"
+    ],
+    "expected_points": [
+      "simplify terms",
+      "use examples",
+      "check understanding"
+    ],
+    "difficulty": 3,
+    "max_score": 100
+  },
+  {
+    "id": "general_senior_016",
+    "profession": "general",
+    "level": "senior",
+    "category": "algorithms",
+    "question": {
+      "ru": "Что такое Big O?",
+      "en": "Explain: Что такое Big O?",
+      "uk": "Поясніть: Что такое Big O?"
+    },
+    "keywords": [
+      "big",
+      "o",
+      "complexity",
+      "time",
+      "space"
+    ],
+    "expected_points": [
+      "describes growth",
+      "time or space complexity",
+      "worst case often used"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "general_senior_017",
+    "profession": "general",
+    "level": "senior",
+    "category": "git",
+    "question": {
+      "ru": "Как работает Git merge?",
+      "en": "Explain: Как работает Git merge?",
+      "uk": "Поясніть: Как работает Git merge?"
+    },
+    "keywords": [
+      "git",
+      "merge",
+      "branch",
+      "conflict"
+    ],
+    "expected_points": [
+      "combines histories",
+      "may create merge commit",
+      "conflicts need resolution"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "general_senior_018",
+    "profession": "general",
+    "level": "senior",
+    "category": "databases",
+    "question": {
+      "ru": "Зачем нужны индексы в базе данных?",
+      "en": "Explain: Зачем нужны индексы в базе данных?",
+      "uk": "Поясніть: Зачем нужны индексы в базе данных?"
+    },
+    "keywords": [
+      "index",
+      "database",
+      "query",
+      "performance"
+    ],
+    "expected_points": [
+      "speed up reads",
+      "cost writes and storage",
+      "choose by query patterns"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "general_senior_019",
+    "profession": "general",
+    "level": "senior",
+    "category": "system_design",
+    "question": {
+      "ru": "Что такое горизонтальное масштабирование?",
+      "en": "Explain: Что такое горизонтальное масштабирование?",
+      "uk": "Поясніть: Что такое горизонтальное масштабирование?"
+    },
+    "keywords": [
+      "scaling",
+      "horizontal",
+      "instances",
+      "load"
+    ],
+    "expected_points": [
+      "add instances",
+      "use load balancing",
+      "state must be shared or externalized"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  },
+  {
+    "id": "general_senior_020",
+    "profession": "general",
+    "level": "senior",
+    "category": "communication",
+    "question": {
+      "ru": "Как объяснить сложную идею новичку?",
+      "en": "Explain: Как объяснить сложную идею новичку?",
+      "uk": "Поясніть: Как объяснить сложную идею новичку?"
+    },
+    "keywords": [
+      "communication",
+      "simplify",
+      "analogy",
+      "feedback"
+    ],
+    "expected_points": [
+      "simplify terms",
+      "use examples",
+      "check understanding"
+    ],
+    "difficulty": 4,
+    "max_score": 100
+  }
+]

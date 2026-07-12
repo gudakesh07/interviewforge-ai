@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <div class="header-row">
+    <div>
+      <p class="eyebrow">Итоговый отчёт</p>
+      <h1>{{ report.overall_score }}/100</h1>
+    </div>
+    <a class="button" href="/reports/{{ interview.id }}/pdf">PDF</a>
+  </div>
+  <p>{{ report.summary }}</p>
+  <div class="grid two">
+    <div class="card"><h3>Сильные категории</h3><p>{{ ", ".join(report.strong_categories) or "Появятся после сильных ответов." }}</p></div>
+    <div class="card"><h3>Слабые категории</h3><p>{{ ", ".join(report.weak_categories) or "Критичных слабых мест не найдено." }}</p></div>
+  </div>
+  <h2>Рекомендации</h2>
+  <ul>{% for item in report.recommendations %}<li>{{ item }}</li>{% endfor %}</ul>
+  <h2>План на 7 дней</h2>
+  <div class="grid">
+    {% for day in report.study_plan %}
+      <article class="card"><h3>День {{ day.day }}: {{ day.topic }}</h3><p>{{ "; ".join(day.tasks) }}</p></article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+
