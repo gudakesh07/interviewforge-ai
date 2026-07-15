@@ -11,7 +11,7 @@ InterviewForge AI is a SaaS-style FastAPI app for practicing technical and HR in
 ## App Experience
 
 ![Landing Page](docs/landing.png)
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/interior.png)
 ![Interview Flow](docs/exam.png)
 ![Final Report](docs/result.png)
 
